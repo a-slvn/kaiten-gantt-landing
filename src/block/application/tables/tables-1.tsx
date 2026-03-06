@@ -164,6 +164,7 @@ const getStatusBadgeColor = (status: string) => {
   }
 };
 
+// @ts-expect-error unused in current version
 const getStatusDotColor = (status: string) => {
   switch (status) {
     case 'Active':

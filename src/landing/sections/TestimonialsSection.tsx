@@ -2,7 +2,7 @@ import logoExpress42 from '../assets/images/logo-express42.png';
 import logoSamolet from '../assets/images/logo-samolet.png';
 import logoNhtk from '../assets/images/logo-nhtk.png';
 import avatarPlaceholder from '../assets/images/avatar-placeholder.png';
-import quoteIcon from '../assets/icons/quote.svg';
+import QuoteIcon from '../assets/icons/quote.svg';
 
 const testimonials = [
   {
@@ -56,11 +56,7 @@ export default function TestimonialsSection() {
                   alt=""
                   className="h-[60px] w-auto object-contain object-left"
                 />
-                <img
-                  src={quoteIcon}
-                  alt=""
-                  className="h-[60px] w-[79px] shrink-0 rotate-180"
-                />
+                <QuoteIcon className="h-[60px] w-[79px] shrink-0 rotate-180" />
               </div>
 
               {/* Quote text */}
